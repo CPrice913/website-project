@@ -1,0 +1,39 @@
+.container {
+    font-family: 'Times New Roman', Times, serif;
+}
+header,
+footer {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    text-align: center;
+}
+nav {
+    border-right: 1px solid darkolivegreen;
+    
+}
+.container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "footer footer";
+    grid-template-columns: 1fr 7fr;
+    gap: 20px;
+}
+header {
+    grid-area: header;
+}
+main {
+    grid-area: content;
+}
+nav {
+    grid-area: sidebar;
+}
+footer {
+    grid-area: footer;
+}
+ul {
+    list-style-type: none;
+}
