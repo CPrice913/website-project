@@ -37,3 +37,23 @@ footer {
 ul {
     list-style-type: none;
 }
+ul a {
+    color: #4E4C67;
+}
+a:hover {
+    color: #A6B1E1;
+}
+footer a{
+    color:whitesmoke;
+}
+main {
+    grid-area: content;
+    display: grid;
+    grid-auto-rows: repeat(auto-fit, minmax(1fr,auto));
+    gap: inherit;
+}
+article {
+    padding: 10px;
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
+}
