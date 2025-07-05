@@ -3,7 +3,7 @@
 }
 header,
 footer {
-    border-radius: 5px;
+    border-radius: 5px; 
     padding: 10px;
     background-color: darkolivegreen;
     color: whitesmoke;
@@ -56,4 +56,11 @@ article {
     padding: 10px;
     border: 2px solid darkolivegreen;
     border-radius: 5px;
+}
+.intro img {
+    max-width: 20%;
+    float: right;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 1em;
 }
