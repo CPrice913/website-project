@@ -1,5 +1,6 @@
-.container {
-    font-family: 'Times New Roman', Times, serif;
+
+*{
+    font-family: "Roboto Condensed", sans-serif;
 }
 header,
 footer {
@@ -43,6 +44,12 @@ ul a {
 a:hover {
     color: #A6B1E1;
 }
+.about a{
+    color: #4E4C67;
+}
+.about a:hover{
+    color: #A6B1E1;
+}
 footer a{
     color:whitesmoke;
 }
@@ -51,6 +58,7 @@ main {
     display: grid;
     grid-auto-rows: repeat(auto-fit, minmax(1fr,auto));
     gap: inherit;
+    color: rgb(13, 14, 14);
 }
 article {
     padding: 10px;
